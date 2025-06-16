@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9e9f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tag {
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.Friend {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.Family {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.Colleague {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+button {
+  cursor: pointer;
+}
+
+.timestamp {
+  font-size: 0.75rem;
+  color: #666;
+  margin-left: 10px;
+}
